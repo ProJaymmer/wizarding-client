@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Project 4: UNOFFICIAL WIZARDING WORLD--A REVIEW PAGE FOR MAGICAL SCHOOL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### FRONT-END README
 
-## Available Scripts
+## WIZARDING WORLD HEADMASTER & STUDENT CRUD
 
-In the project directory, you can run:
+### User Stories
 
-### `npm start`
+A Wizarding School Review Application. Our users are both the Headmasters of different Wizarding schools who can maintain their campus' webpage with accurate information and the students that attend the school who can leave reviews on the Wizarding school. Wizarding schools dole out owls with invitations to join their "prestigious" schools, but by whose standards are the schools actually worthwhile? Certainly not one person with an over-inflated ego sitting at the top! Let's hear from the people who've actually attended!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Like Yelp, Wizards can sign-up as either a Headmaster or a Student. Headmasters can upload their Wizarding School and information, while students can leave reviews on their experience. Headmasters should be able to Create, Read, Update, or Delete their schools, and students should be able to Create, Read, Update, or Delete their reviews.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+And casual users/reviewers can see it all!
 
-### `npm test`
+## How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+On the landing page, you will see a list of previously submitted Wizarding schools and their aggregated ratings. Clicking on any of the schools will direct you to its reviews. The navigation bar will hold a sign-up area for Headmasters and Students. Headmasters, at least any worth their salt, will sign-up and upload their Wizarding school to share all of the standard information that they believe makes their school great. Students can sign-up and leave reviews on their experience.
 
-### `npm run build`
+## Project Overview/Description
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project Overview that includes: Description, Wireframes, MVP/PMVP, and Time/Priority Matrix can be found on..
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Project Overview](planning/project-worksheet.md)
