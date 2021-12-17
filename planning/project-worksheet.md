@@ -31,6 +31,7 @@ A Wizarding School Review Application. Like Yelp, Wizards can sign-up as either 
 
 - Landing Page - A page to list all of the schools
 - School Page - A page to list the selected school and its details
+- Reviews - Reviews will be underneath school details
 - Seed Data for Wizarding Schools and Reviews
 
 #### PostMVP
