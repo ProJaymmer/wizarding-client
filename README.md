@@ -28,7 +28,12 @@ Project Overview that includes: Description, Wireframes, MVP/PMVP, and Time/Prio
 
 1. Module not found: Error: Can't resolve 'react-router-dom'.
 
-   react-router-dom needs to be install via terminal command npm install react-router-dom !
+   SOLUTION: react-router-dom needs to be install via terminal command npm install react-router-dom !
 
-2. Logo image would not render on page
-   I saw some guy’s comment on stackoverflow say something about something and needing to use “require” inside the src value.
+2. Locally saved Logo image would not render on page.
+
+   SOLUTION: I saw some guy’s comment on stackoverflow saying something, Webpack, something, process something something, and needing to use “require” inside the src value.
+
+3. Using React image link to direct page to GitGub repository.
+
+   SOLUTION: The React Link does not direct page to outside addresses! I just learned that the React Link only directs to links that are a part of the current React project. Must use something else, like href tags.
