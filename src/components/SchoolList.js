@@ -1,10 +1,10 @@
-// import React, {useEffect} from 'react';
+import React, {useEffect} from 'react';
 
-// const SchoolList = (props) => {
+const SchoolList = (props) => {
 
-//     useEffect( () => {
-//         const
-//     }
-// }
+    useEffect( () => {
+        const
+    }
+}
 
-// export default SchoolList;
+export default SchoolList;
