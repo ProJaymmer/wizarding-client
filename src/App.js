@@ -18,7 +18,7 @@ function App() {
 		<div className='App'>
 			<header>Wizarding Schools Review</header>
 			<nav>
-				<Link to='/'>
+				<Link to='https://github.com/ProJaymmer/wizarding-client'>
 					<WizardingSchoolsLogo />
 				</Link>
 			</nav>
