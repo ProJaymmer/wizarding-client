@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 import WizardingSchoolsLogo from './components/WizardingSchoolsLogo';
+import SchoolList from './components/SchoolList';
 
 function App() {
 	// const makeApiCall = (schoolsUrl) => {
@@ -19,10 +20,18 @@ function App() {
 			<header>Wizarding Schools Review</header>
 			<nav>
 				<Link to='/schools'>Schools</Link>
-				<a href='https://github.com/ProJaymmer/wizarding-client'>
+			</nav>
+			<main>
+				<a class='logo' href='https://github.com/ProJaymmer/wizarding-client'>
 					<WizardingSchoolsLogo />
 				</a>
-			</nav>
+			</main>
+			{/* <Route 
+			path='/schools' 
+			exact render={ () => (
+				<SchoolList/>
+			)}>
+			</Route> */}
 		</div>
 	);
 }

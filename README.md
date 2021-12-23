@@ -37,3 +37,5 @@ Project Overview that includes: Description, Wireframes, MVP/PMVP, and Time/Prio
 3. Using React image link to direct page to GitGub repository.
 
    SOLUTION: The React Link does not direct page to outside addresses! I just learned that the React Link only directs to links that are a part of the current React project. Must use something else, like href tags.
+
+4. Refamiliarizing myself with Grid.

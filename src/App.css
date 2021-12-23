@@ -18,17 +18,22 @@ body {
 }
 /* END GRADIENT BACKGROUND CODE */
 body {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
 	font-family: 'MedievalSharp', cursive;
 	color: white;
+	height: 800px;
 }
 header {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bolder;
 	padding: 20px;
+	grid-row: 1;
 }
 nav {
 	text-align: center;
+	grid-row: 3;
 }
 a {
 	text-decoration: none;
