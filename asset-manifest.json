@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wizarding-client/static/css/main.5c10c129.css",
-    "main.js": "/wizarding-client/static/js/main.048ad68d.js",
+    "main.js": "/wizarding-client/static/js/main.f62adc9d.js",
     "static/js/787.a7be23de.chunk.js": "/wizarding-client/static/js/787.a7be23de.chunk.js",
     "static/media/MagicCastleFaerie.jpg": "/wizarding-client/static/media/MagicCastleFaerie.245f91eca8f84c2a62b1.jpg",
     "index.html": "/wizarding-client/index.html",
     "main.5c10c129.css.map": "/wizarding-client/static/css/main.5c10c129.css.map",
-    "main.048ad68d.js.map": "/wizarding-client/static/js/main.048ad68d.js.map",
+    "main.f62adc9d.js.map": "/wizarding-client/static/js/main.f62adc9d.js.map",
     "787.a7be23de.chunk.js.map": "/wizarding-client/static/js/787.a7be23de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c10c129.css",
-    "static/js/main.048ad68d.js"
+    "static/js/main.f62adc9d.js"
   ]
 }
