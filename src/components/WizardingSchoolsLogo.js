@@ -1,11 +1,11 @@
 const WizardingSchoolsLogo = () => {
 	return (
 		<img
-			src='../Images/Magic Castle Faerie.jpg'
+			src={require('../Images/MagicCastleFaerie.jpg')}
 			className='WizardingSchoolsLogo'
-			alt='Dungeons and Dragons Logo'
-			height='50'
-			width='100'
+			alt='Magical Faerie Castle'
+			height='100'
+			width='200'
 		/>
 	);
 };
