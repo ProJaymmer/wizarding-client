@@ -32,7 +32,9 @@ Project Overview that includes: Description, Wireframes, MVP/PMVP, and Time/Prio
 
 2. Locally saved Logo image would not render on page.
 
-   SOLUTION: I saw some guy’s comment on stackoverflow saying something, Webpack, something, process something something, and needing to use “require” inside the src value.
+   SOLUTION: I saw some guy’s comment on stackoverflow saying something, Webpack (what's that?), something, process something something, and needing to use “require” inside the src value.
+
+   NOTE: Just saw Terminal error: "webpack 5.65.0 compiled with 2 errors in 68 ms", so Webpack seems to run with Node.
 
 3. Using React image link to direct page to GitGub repository.
 
