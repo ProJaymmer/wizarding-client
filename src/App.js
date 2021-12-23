@@ -18,9 +18,10 @@ function App() {
 		<div className='App'>
 			<header>Wizarding Schools Review</header>
 			<nav>
-				<Link to='https://github.com/ProJaymmer/wizarding-client'>
+				<Link to='/schools'>Schools</Link>
+				<a href='https://github.com/ProJaymmer/wizarding-client'>
 					<WizardingSchoolsLogo />
-				</Link>
+				</a>
 			</nav>
 		</div>
 	);
