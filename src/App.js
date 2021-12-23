@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Link, Routes, Route } from 'react-router-dom';
 import WizardingSchoolsLogo from './components/WizardingSchoolsLogo';
 import SchoolList from './components/SchoolList';
 
@@ -13,13 +13,13 @@ function App() {
 				return response.json();
 			})
 			.then((data) => {
-				console.log(data);
-				setSchoolList(data.results);
+				console.log(data.schools[0].name);
+				// setSchoolList(data.schools);
 			});
 	};
 
 	useEffect(() => {
-		const schoolsUrl = '';
+		const schoolsUrl = 'http://localhost:4000/schools/';
 		makeApiCall(schoolsUrl);
 	}, []);
 
@@ -27,20 +27,31 @@ function App() {
 		<div className='App'>
 			<header>Wizarding Schools Review</header>
 			<nav>
+				<Link to='/'></Link>
 				<Link to='/schools'>Schools</Link>
 			</nav>
 			<main>
-				<a class='logo' href='https://github.com/ProJaymmer/wizarding-client'>
+				<a
+					className='logo'
+					href='https://github.com/ProJaymmer/wizarding-client'>
 					<WizardingSchoolsLogo />
 				</a>
 			</main>
-			<Route
+			<Routes>
+				<Route
+					exact
+					path='/schools'
+					element={
+						<SchoolList
+							schoolList={schoolList ? schoolList : ''}
+							setSchoolList={setSchoolList}
+						/>
+					}
+				/>
+			</Routes>
+			{/* <Route
 				path='/schools'
-				exact
-				render={() => (
-					<SchoolList schoolList={schoolList} setSchoolList={setSchoolList} />
-				)}
-			/>
+				component={SchoolList} schoolList={schoolList} setSchoolList={setSchoolList} /> */}
 		</div>
 	);
 }

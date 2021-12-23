@@ -41,3 +41,5 @@ Project Overview that includes: Description, Wireframes, MVP/PMVP, and Time/Prio
    SOLUTION: The React Link does not direct page to outside addresses! I just learned that the React Link only directs to links that are a part of the current React project. Must use something else, like href tags.
 
 4. Refamiliarizing myself with Grid.
+
+5. REACT V6 !!!! Routes are frustratingly different.

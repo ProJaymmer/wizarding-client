@@ -1,10 +1,15 @@
-import React, {useEffect} from 'react';
+// import React from 'react';
 
-const SchoolList = (props) => {
+// const SchoolList = async (props) => {
+// 	const schoolListHtml = await props.schoolList.map((school) => {
+// 		return (
+// 			<ul>
+// 				<li key={school.id}>{school.name}</li>
+// 			</ul>
+// 		);
+// 	});
 
-    useEffect( () => {
-        const
-    }
-}
+// 	return <div className='SchoolListHtml'>{schoolListHtml}</div>;
+// };
 
-export default SchoolList;
+// export default SchoolList;
