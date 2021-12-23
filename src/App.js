@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import WizardingSchoolsLogo from './components/WizardingSchoolsLogo';
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
 				<Link to='/'>
 					<WizardingSchoolsLogo />
 				</Link>
+				<h1>Jay's Site</h1>
 			</nav>
 		</div>
 	);
