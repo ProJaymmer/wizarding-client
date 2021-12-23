@@ -4,8 +4,8 @@ const WizardingSchoolsLogo = () => {
 			src={require('../Images/MagicCastleFaerie.jpg')}
 			className='WizardingSchoolsLogo'
 			alt='Magical Faerie Castle'
-			height='100'
-			width='200'
+			height='150'
+			width='250'
 		/>
 	);
 };

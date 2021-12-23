@@ -16,11 +16,11 @@ function App() {
 	// }
 	return (
 		<div className='App'>
+			<header>Wizarding Schools Review</header>
 			<nav>
 				<Link to='/'>
 					<WizardingSchoolsLogo />
 				</Link>
-				<h1>Jay's Site</h1>
 			</nav>
 		</div>
 	);

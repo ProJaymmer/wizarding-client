@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// DON'T KNOW WHAT THIS DOES, BUT TAYLOR KNOWS IT'S VERY NECESSARY FOR LIVE DEPLOYMENT <3
+// DON'T KNOW WHAT HashRouter DOES, BUT TAYLOR SHOWED THAT IT'S VERY NECESSARY FOR CODE TO DISPLAY <3
 // FOR LIVE DEPLOYMENT, GITHUB PAGES REFERENCES YOUR GITHUB CODE, SO YOU MUST PUSH LOCAL CODE TO REMOTE REPO, AND IN TERMINAL RUN: npm run deploy AS REFERENCED IN package.json
 import { HashRouter as Router } from 'react-router-dom';
 
