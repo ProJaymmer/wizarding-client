@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wizarding-client/static/css/main.e6c13ad2.css",
+    "main.js": "/wizarding-client/static/js/main.2bc3eb99.js",
+    "static/js/787.a7be23de.chunk.js": "/wizarding-client/static/js/787.a7be23de.chunk.js",
+    "index.html": "/wizarding-client/index.html",
+    "main.e6c13ad2.css.map": "/wizarding-client/static/css/main.e6c13ad2.css.map",
+    "main.2bc3eb99.js.map": "/wizarding-client/static/js/main.2bc3eb99.js.map",
+    "787.a7be23de.chunk.js.map": "/wizarding-client/static/js/787.a7be23de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2bc3eb99.js"
+  ]
+}
