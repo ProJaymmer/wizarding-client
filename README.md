@@ -21,3 +21,11 @@ On the landing page, you will see a list of previously submitted Wizarding schoo
 Project Overview that includes: Description, Wireframes, MVP/PMVP, and Time/Priority Matrix can be found on..
 
 - [Project Overview](planning/project-worksheet.md)
+
+### CHALLENGES
+
+1. Module not found: Error: Can't resolve 'react-router-dom'.
+
+react-router-dom needs to be install via terminal command npm install react-router-dom !
+
+2.
